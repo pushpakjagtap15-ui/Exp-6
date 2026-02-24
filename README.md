@@ -39,39 +39,7 @@ Conditional statements allow a program to execute specific blocks of code based 
 - **Relational:** `==` (equal to), `!=` (not equal to), `>` (greater than), `<` (less than), `>=`, `<=`  
 - **Logical:** `and`, `or`, `not`  
 
----
 
-## Practical Implementation
-
-### Example 1: Even or Odd Number
-```python
-num = int(input("Enter a number: "))
-
-if num % 2 == 0:
-    print("The number is Even.")
-else:
-    print("The number is Odd.")
-Example 2: Grade Evaluation
-python
-marks = 85
-
-if marks >= 75:
-    print("Distinction")
-elif marks >= 60:
-    print("First Class")
-elif marks >= 40:
-    print("Pass")
-else:
-    print("Fail")
-Example 3: Logical Operators
-python
-age = 20
-has_id = True
-
-if age >= 18 and has_id:
-    print("Entry Allowed")
-else:
-    print("Entry Denied")
 
 
 
